@@ -10,13 +10,20 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-bottom: .5rem;
+	padding: 1rem 0;
+	background: #111;
+	color: #fff;
 	border-bottom: 1px solid #eaeaea;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 header h1 {
 	margin-left: 5rem;
+}
+
+h1 a {
+	color: #fff;
+	text-decoration: none;
 }
 
 nav ul {
@@ -32,13 +39,28 @@ nav li {
 }
 
 nav li a, nav li a:visited {
-	color: #6b7280;
+	color: #9598A7;
 	text-decoration: none;
 	transition: color 0.3s ease;
 }
 
 nav li a:hover {
-	color: #2b7fe3;
+	color: #4592ff;
+}
+
+.btn {
+	padding: 1rem;
+	background: #4592ff;
+	border-radius: 2rem;
+	transition: background-color .3s ease;
+}
+
+.btn, .btn:visited {
+	color: #fff;
+}
+
+.btn:hover {
+	background: #4f46e6;
 }
 
 main {
